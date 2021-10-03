@@ -19,9 +19,6 @@ body {
     color: var(--black);
     font-family: Arial;
 }
-
-
-
 body div#main {
     margin: 0px 25px 25px;
     min-height: calc(100vh - 155px);
