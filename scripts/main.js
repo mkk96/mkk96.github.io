@@ -192,34 +192,11 @@ const navigateTo = (optn) => {
     view.innerHTML = menuItems[optn].callback.call();
 
     document.title = "Mukul Kumar profile";
-
-    let hem = document.getElementById("hamburger");
-    if(hem.className!="fa fa-bars"){
-        hamburgerHandler();
-    }
-
     let body = document.getElementsByTagName("body")[0];
     if(optn==0){
         body.className += " home-active";
     }
     else{
         body.className = "";
-    }
-}
-const hamburgerHandler = () => {
-    let hem = document.getElementById("hamburger");
-    if(hem.className=="fa fa-bars"){
-        hem.className = "fa fa-times";
-        let menuList = document.getElementsByClassName("nav-item");
-        for(let m of menuList){
-            m.style.display = "block";
-        }
-    }
-    else{
-        hem.className = "fa fa-bars";
-        let menuList = document.getElementsByClassName("nav-item");
-        for(let m of menuList){
-            m.style.display = "none";
-        }
     }
 }

@@ -98,7 +98,7 @@
 
 @keyframes menu-toggle {
     0%{
-        height: 0px;
+        height: auto;
     }
     100%{
         height: auto;
