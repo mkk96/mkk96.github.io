@@ -150,7 +150,7 @@ const navbarhome = [
 ];
 
 var view = document.getElementById("main");
-var nav = document.querySelector(".navbar .nav-item-group");
+var nav = document.querySelector(".nav .nav-item-group");
 var dateElem = document.querySelector(".time-container #time");
 
 function onLoad(){

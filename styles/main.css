@@ -1,21 +1,21 @@
-.navbar .nav-item-group {
+.nav .nav-item-group {
     display: flex;
     flex: 1;
     justify-content: flex-start;
 }
 
-.navbar .nav-item {
+.nav .nav-item {
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
     padding: 10px 15px;
 }
 
-.navbar .nav-item:hover {
+.nav .nav-item:hover {
     color: var(--primary);
 }
 
-.navbar .nav-item.active {
+.nav .nav-item.active {
     color: var(--primary);
     text-decoration: underline;
 }
@@ -46,7 +46,7 @@
 .nav-links a {
     text-decoration: none !important;
 }
-.navbar .nav-item {
+.nav .nav-item {
     display: block !important;
 }
 @keyframes menu-toggle {
@@ -98,11 +98,11 @@
 }
 :root{
     --primary: #379683;
-    --primary-light: #06a2c1;
-    --secondary: #eee;
-    --black: #53565a;
-    --gray: #ccc;
-    --deep-gray: #97999b;
+    --primary-light: #DDAF94;
+    --secondary: #E8CEBF;
+    --black: #266150;
+    --gray: #4F4846;
+    --deep-gray: #FDF8F5;
 }
 
 body {
