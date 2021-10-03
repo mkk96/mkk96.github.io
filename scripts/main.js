@@ -1,7 +1,7 @@
 const home = () => {
     return `
     <div class="home-container">
-        <div>
+        <div class="home">
             <h1>Hi My name is Mukul Kumar</h1>
             <br>
             <br>

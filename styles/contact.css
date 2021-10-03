@@ -1,0 +1,95 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.contact .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .block .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact .block .list .list-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+.contact .block .list .list-item i{
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.contact .block .list .list-item .data{
+    margin-left: 20px;
+}
+
+.contact .block .list .list-item .data label{
+    font-weight: 700;
+    color: var(--deep-gray);
+}
+
+.contact .block .list .list-item .data div {
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+
+.contact .block .form{}
+
+.contact .block .form .form-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.contact .block .form .form-group label {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 5px;
+}
+
+.contact .block .form .form-group input,
+.contact .block .form .form-group textarea {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 20px;
+    padding: 5px 5px;
+    color: var(--deep-gray);
+    font-family: Arial;
+}
+
+.contact .block .form .form-group input:focus,
+.contact .block .form .form-group textarea:focus {
+    outline: none;
+}
+
+.contact .block .form .form-group input::placeholder,
+.contact .block .form .form-group textarea::placeholder {
+    color: var(--gray);
+}
+
+.contact .block .form .btn-group{
+    text-align: center;
+}
+
+.contact .block .form .btn-group button {
+    border: none;
+    color: #fff;
+    background-color: var(--primary);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contact .block .form .btn-group button:hover {
+    background-color: var(--primary-light)
+}
