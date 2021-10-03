@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Mukul Kumar</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scripts/main.css">
+    <title></title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
-<body>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">About</a>
-        <a href="#about">Education</a>
-        <a href="#about">Experince</a>
-      </div>
+<body onload="onLoad()">
+    <div class="navbar">
+        <div class="nav-item-group">
+            <div>
+                <i id="hamburger" onclick="hamburgerHandler()"></i>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="https://drive.google.com/file/d/1N1n-sgegEqxh_dz0hS5qQ3ShxBnwzc0g/view?usp=sharing" target="_blank">
+                <div class="link-label">cv</div>
+            </a>
+            <a href="https://github.com/mkk96" target="_blank">
+                <div class="link-label">github</div>
+            </a>
+            <a href="https://www.linkedin.com/in/mukul-kumar-60322616b/" target="_blank">
+                <div class="link-label">linkedin</div>
+            </a>
+        </div>
+    </div>
+    <div id="main"></div>
+    <div class="time-container">
+        <div id="time"></div>
+    </div>
 </body>
+<script src="scripts/main.js"></script>
 </html>
