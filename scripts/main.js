@@ -18,7 +18,7 @@ const about = () => {
     <div>
         <h1>About</h1>
         <img class="profile-image" src="https://media-exp1.licdn.com/dms/image/C5103AQEXLFMcgj_Whg/profile-displayphoto-shrink_800_800/0/1551594482819?e=1639008000&v=beta&t=MSUg9vb0DXbzUIFEf1yULcZex5PmH9dwEyTLWOizQ6w" 
-            alt="Profile Image" height="200px" width="200px" />
+            alt="Profile Photo" height="200px" width="200px" />
         <br><br>
         <div class="details">
             <div class="para">
@@ -36,12 +36,12 @@ const skill = () => {
     <div>
     <h1>Main Skills</h1>
     <ul>
-    <li><img src="images/c.jpg" height="30px" width="30px" display="block"> C is a general-purpose, procedural computer programming language supporting structured programming.</li><br><br>
-    <li><img src="images/c++.jpg" height="30px" width="30px" display="block">  C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".</li><br><br>
-    <li><img src="images/databases.jpg" height="30px" width="30px" display="block">  A database is an organized collection of structured information, or data, typically stored electronically in a computer system</li><br><br>
-    <li><img src="images/python.jpg" height="30px" width="30px" display="block">  Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale project</li><br><br>
-    <li><img src="images/js.jpg" height="30px" width="30px" display="block">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions</li><br><br>
-    <li><img src="https://pbs.twimg.com/profile_images/712692105311870977/dhv_KLx3_400x400.jpg" height="30px" width="30px" display="block">Google Stackdriver is a cloud computing systems management service offered by Google. It provides performance and diagnostics data to public cloud users. Stackdriver is a multi-cloud solution, providing support for both Google Cloud and AWS cloud environments.</li><br><br>
+    <li><img src="images/c.jpg" height="30px" width="30px" display="block" alt="C Logo"> C is a general-purpose, procedural computer programming language supporting structured programming.</li><br><br>
+    <li><img src="images/c++.jpg" height="30px" width="30px" display="block" alt="C++ logo">  C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".</li><br><br>
+    <li><img src="images/databases.jpg" height="30px" width="30px" display="block" alt="DataBases logo">  A database is an organized collection of structured information, or data, typically stored electronically in a computer system</li><br><br>
+    <li><img src="images/python.jpg" height="30px" width="30px" display="block" alt="Python Logo">  Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale project</li><br><br>
+    <li><img src="images/js.jpg" height="30px" width="30px" display="block" alt="JavaScript Logo">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions</li><br><br>
+    <li><img src="https://pbs.twimg.com/profile_images/712692105311870977/dhv_KLx3_400x400.jpg" height="30px" width="30px" display="block" alt="Stack Driver Sysmbol">Google Stackdriver is a cloud computing systems management service offered by Google. It provides performance and diagnostics data to public cloud users. Stackdriver is a multi-cloud solution, providing support for both Google Cloud and AWS cloud environments.</li><br><br>
     </ul>
     <br>
     <h1>Others Skill</h1>
@@ -117,7 +117,7 @@ const experience = () => {
     return `
     <div>
     <h1>Experience</h1>
-    <img src="https://www.insidermedia.com/uploads/news/images/HSBC_logo.png" height="30px" width="100px" display="block">
+    <img src="https://www.insidermedia.com/uploads/news/images/HSBC_logo.png" height="30px" width="100px" display="block" alt="HSBC Logo">
     <h2>From July 2019 to September 2021</h2>
     <h3>HSBC Software Development India</h3>
     <ul>

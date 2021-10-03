@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-.nav-links .link-label {
+.nav-links .cvlink {
     padding: 4px 6px;
     font-size: 20px;
     border: 1px solid;
@@ -34,7 +34,7 @@
     margin: 0px 10px;
     color: var(--black);
 }
-.nav-links .link-label:hover {
+.nav-links .cvlink:hover {
     color: var(--primary);
 }
 .nav-links i {
