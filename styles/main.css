@@ -19,67 +19,11 @@ body {
     color: var(--black);
     font-family: Arial;
 }
-
-@media screen and (min-width:600px) {   
-    body.home-active{
-        background: linear-gradient(135deg, var(--secondary),#06a2c1aa);
-    }
-}
-
 body div#main {
     margin: 0px 25px 25px;
     min-height: calc(100vh - 155px);
     display: flex;
 }
-
-footer.footer {
-    padding: 10px;
-    display: flex;
-    background-color: var(--gray);
-    margin: 0px -8px -8px;
-}
-
-footer.footer .footer-body {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-footer.footer .footer-body .title {
-    font-weight: 700;
-    color: var(--primary);
-    padding-left: 10px;
-}
-
-@media screen and (max-width:600px) {
-    footer.footer .footer-body div {
-        flex-direction: column;
-        display: flex;
-        align-items: flex-start;
-    }
-}
-
-footer.footer .footer-body a {
-    text-decoration: none;
-    color: var(--primary);
-    margin: 10px;
-}
-
-footer.footer .time-container {
-    padding: 10px;
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-footer.footer .time-container div#time {
-    font-size: 14px;
-    font-weight: 700;
-    font-family: Arial;
-    color: var(--primary);
-}
-
 h1{
     color: var(--primary);
 }

@@ -15,13 +15,6 @@
 .home-container .home-right-image img {
     height: 55%;
 }
-
-@media screen and (max-width:600px) {
-    .home-container .home-right-image{
-        display: none;
-    }
-}
-
 .home {
     align-self: center;
     flex: 1;
