@@ -27,7 +27,13 @@ const about = () => {
             From July 2019 to September 2021 I was working in 7th largest bank HSBC. I started as Software Engineer. My responsibility include data migration from On-premises system to GCP.
             My strengths are my analytical approach, my communication and presentation skills. In my free time, I enjoy spending time with friends, sometimes cooking, listening to music, reading, traveling, and playing outdoor sports.  
             </div>
-        </div>
+        </div><br>
+        <h3>Contact Details</h3>
+        <ul>
+            <li>Phone no: 7011795679</li>
+            <li>Email id: mukul.kumar@students.iiit.ac.in</li>
+            <li>Address: Sonia Vihar, Delhi-110094</li>
+        </ul>
     </div>
     `;
 }
