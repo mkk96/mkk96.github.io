@@ -4,22 +4,39 @@ Git repo: https://github.com/mkk96/mkk96.github.io
 File Structure
 
 •	mkk96.github.io
+
 	o	images
+	
 			HSBC.jpg
+		
 			back.jpg
+		
 			c++.jpg
+		
 			c.jpg
+		
 			databases.jpg
+		
 			js.jpg
+		
 			pic.jpeg
+		
 			python.jpg
+		
 			sd.jpg
+		
 	o	scripts
+	
 			main.js
+		
 	o	styles
+	
 			main.css
+		
 	o	index.html
+	
 	o	README.md
+	
 
 index.html is main driving file which contain all html code also this file is also link to main.js in scripts and main.css in styles.
 main.css is css file which contain all css code and placed inside styles folder
