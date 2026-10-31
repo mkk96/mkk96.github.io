@@ -57,6 +57,7 @@
                 <a href="#about">About</a>
                 <a href="#what-i-do">What I do</a>
                 <a href="#work">Work</a>
+                <a href="#platform">Platform</a>
                 <a href="#toolkit">Toolkit</a>
                 <a href="#certifications">Certifications</a>
             </nav>
@@ -200,14 +201,82 @@
             </div>
         </section>
 
+        <!-- FEATURED PLATFORM -->
+        <section class="section section-alt" id="platform">
+            <div class="container">
+                <h2 class="section-title reveal">A platform I've built</h2>
+                <p class="section-sub reveal">An enterprise data ingestion &amp; operations platform on Google Cloud. Client and system names are left out, but this is the shape of what I build.</p>
+
+                <dl class="build-stats reveal">
+                    <div><dt>Ingestion patterns</dt><dd>5</dd></div>
+                    <div><dt>Source feeds</dt><dd>50+</dd></div>
+                    <div><dt>Environments</dt><dd>3</dd></div>
+                    <div><dt>Shared audit &amp; DQ framework</dt><dd>1</dd></div>
+                </dl>
+
+                <div class="arch reveal" role="img" aria-label="Architecture: source systems feed ingestion services on GCP, which load layered BigQuery tables from staging to curated views">
+                    <div class="arch-col">
+                        <h3>Sources</h3>
+                        <ul>
+                            <li>REST APIs</li>
+                            <li>Relational databases</li>
+                            <li>Files &amp; cloud buckets</li>
+                            <li>Pub/Sub event streams</li>
+                            <li>Shared BigQuery datasets</li>
+                        </ul>
+                    </div>
+                    <div class="arch-arrow" aria-hidden="true"></div>
+                    <div class="arch-col">
+                        <h3>Ingest</h3>
+                        <ul>
+                            <li>Dataflow (Beam) batch &amp; streaming</li>
+                            <li>Cloud Functions</li>
+                            <li>Storage Transfer Service</li>
+                            <li>Secret Manager for credentials</li>
+                            <li>Error tables for bad records</li>
+                        </ul>
+                    </div>
+                    <div class="arch-arrow" aria-hidden="true"></div>
+                    <div class="arch-col">
+                        <h3>BigQuery layers</h3>
+                        <ol class="layers">
+                            <li>Staging<span>raw landing</span></li>
+                            <li>Tier 1<span>cleansed &amp; typed</span></li>
+                            <li>Tier 2<span>curated, merged</span></li>
+                            <li>Views<span>ready for consumers</span></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="rails">
+                    <article class="rail reveal">
+                        <h3>Orchestration</h3>
+                        <p>Apache Airflow on Astronomer, with a DAG per source, partition sensors and incremental, idempotent merges between layers.</p>
+                    </article>
+                    <article class="rail reveal">
+                        <h3>Operations</h3>
+                        <p>An audit-balance-control framework records every run: row counts, durations and status. Data-quality scans gate each load, and failures raise Slack/Teams alerts and incident tickets automatically.</p>
+                    </article>
+                    <article class="rail reveal">
+                        <h3>Platform</h3>
+                        <p>Every bucket, dataset, table and view is defined in Terraform across dev, stg and prod, with KMS encryption. Tekton CI/CD builds Dataflow images and deploys DAGs and infrastructure.</p>
+                    </article>
+                    <article class="rail reveal">
+                        <h3>AI-assisted ETL</h3>
+                        <p>Gemini on Vertex AI generates load SQL and table and column documentation from structured prompts. The output is extracted, checked and logged before it runs.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
         <!-- TOOLKIT -->
-        <section class="section section-alt" id="toolkit">
+        <section class="section" id="toolkit">
             <div class="container">
                 <h2 class="section-title reveal">My toolkit</h2>
                 <div class="toolkit">
                     <div class="tool-group reveal">
                         <h3>Google Cloud</h3>
-                        <ul class="chips"><li>BigQuery</li><li>Dataflow</li><li>Pub/Sub</li><li>Dataproc</li><li>Cloud Storage</li><li>IAM</li></ul>
+                        <ul class="chips"><li>BigQuery</li><li>Dataflow</li><li>Pub/Sub</li><li>Dataproc</li><li>Cloud Storage</li><li>Cloud Functions</li><li>Dataplex</li><li>Secret Manager</li><li>Cloud KMS</li><li>IAM</li></ul>
                     </div>
                     <div class="tool-group reveal">
                         <h3>Languages</h3>
@@ -215,15 +284,15 @@
                     </div>
                     <div class="tool-group reveal">
                         <h3>Orchestration &amp; ETL</h3>
-                        <ul class="chips"><li>Apache Airflow</li><li>Scalable ETL design</li><li>Pipeline architecture</li><li>Control-M</li></ul>
+                        <ul class="chips"><li>Apache Airflow</li><li>Astronomer</li><li>Apache Beam</li><li>Scalable ETL design</li><li>Pipeline architecture</li><li>Control-M</li></ul>
                     </div>
                     <div class="tool-group reveal">
                         <h3>Infrastructure &amp; DevOps</h3>
-                        <ul class="chips"><li>Terraform</li><li>Tekton</li><li>Kubernetes</li><li>CI/CD</li><li>Git</li><li>GitHub Copilot</li></ul>
+                        <ul class="chips"><li>Terraform</li><li>Tekton</li><li>Kubernetes</li><li>Docker</li><li>CI/CD</li><li>Git</li><li>GitHub Copilot</li></ul>
                     </div>
                     <div class="tool-group reveal">
                         <h3>AI &amp; ML</h3>
-                        <ul class="chips"><li>LLMs</li><li>RAG</li><li>Generative AI</li><li>Claude</li></ul>
+                        <ul class="chips"><li>LLMs</li><li>RAG</li><li>Vertex AI</li><li>Gemini</li><li>Claude</li></ul>
                     </div>
                     <div class="tool-group reveal">
                         <h3>Lakehouse &amp; analytics</h3>
@@ -234,7 +303,7 @@
         </section>
 
         <!-- CERTIFICATIONS -->
-        <section class="section" id="certifications">
+        <section class="section section-alt" id="certifications">
             <div class="container">
                 <h2 class="section-title reveal">Certifications</h2>
                 <p class="section-sub reveal">Eleven of them so far, because I like proving I actually know the tools I use.</p>
