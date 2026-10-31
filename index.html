@@ -58,6 +58,7 @@
                 <a href="#what-i-do">What I do</a>
                 <a href="#work">Work</a>
                 <a href="#platform">Platform</a>
+                <a href="#projects">Projects</a>
                 <a href="#toolkit">Toolkit</a>
                 <a href="#certifications">Certifications</a>
             </nav>
@@ -282,8 +283,47 @@
             </div>
         </section>
 
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Something I built for fellow engineers</h2>
+                <p class="section-sub reveal">Free, open source, and born from a question that comes up at the start of almost every data project.</p>
+
+                <article class="project reveal">
+                    <a class="project-shot" href="https://mkk96.github.io/cloud-region-advisor/" target="_blank" rel="noopener" aria-label="Open Cloud Region Advisor">
+                        <img src="images/cloud-region-advisor.jpg" alt="Cloud Region Advisor recommending asia-south2 (Delhi) as the primary region and asia-south1 (Mumbai) for disaster recovery, with a latency map" width="1403" height="1427" loading="lazy">
+                    </a>
+                    <div class="project-body">
+                        <p class="project-kicker">Cloud Region Advisor</p>
+                        <h3 class="project-title">Where should this workload run?</h3>
+                        <p>
+                            Picking a cloud region looks simple until you weigh latency, cost, data residency, service
+                            availability and a disaster-recovery plan all at once. Most teams settle it with a guess or a
+                            week of spreadsheets. I built Cloud Region Advisor to help fellow data engineers make that call
+                            in about a minute, backed by real numbers.
+                        </p>
+                        <ul class="project-points">
+                            <li>Measures live latency from where your users are, using probes near each location rather than your own laptop or VPN</li>
+                            <li>Recommends a primary and a disaster-recovery region, with a plain-English reason for each</li>
+                            <li>Respects data residency and checks 70+ services per cloud, from BigQuery and GKE to Bedrock and Azure OpenAI</li>
+                            <li>Exports ready-to-run gcloud, AWS CLI, Azure CLI and Terraform snippets</li>
+                        </ul>
+                        <dl class="project-stats">
+                            <div><dt>clouds</dt><dd>3</dd></div>
+                            <div><dt>regions</dt><dd>122</dd></div>
+                            <div><dt>services tracked</dt><dd>229</dd></div>
+                        </dl>
+                        <div class="project-actions">
+                            <a class="btn btn-primary" href="https://mkk96.github.io/cloud-region-advisor/" target="_blank" rel="noopener">Try it live <span aria-hidden="true">→</span></a>
+                            <a class="btn btn-ghost" href="https://github.com/mkk96/cloud-region-advisor" target="_blank" rel="noopener">Source on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
         <!-- TOOLKIT -->
-        <section class="section" id="toolkit">
+        <section class="section section-alt" id="toolkit">
             <div class="container">
                 <h2 class="section-title reveal">My toolkit</h2>
                 <div class="toolkit">
@@ -316,7 +356,7 @@
         </section>
 
         <!-- CERTIFICATIONS -->
-        <section class="section section-alt" id="certifications">
+        <section class="section" id="certifications">
             <div class="container">
                 <h2 class="section-title reveal">Certifications</h2>
                 <p class="section-sub reveal">Eleven of them so far, because I like proving I actually know the tools I use.</p>

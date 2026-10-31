@@ -30,6 +30,10 @@ I build data platforms on Google Cloud that teams can trust.<br>
 | 🤖 **LLM & RAG** | Retrieval-Augmented Generation built into data platform workflows |
 | 👥 **Technical leadership** | Leading engineering teams through planning, code reviews and on-time delivery |
 
+## Projects
+
+**[Cloud Region Advisor](https://mkk96.github.io/cloud-region-advisor/)** ([source](https://github.com/mkk96/cloud-region-advisor)): a free tool I built to help fellow data engineers decide where to run their workloads on Google Cloud, AWS or Azure. It measures live latency from where your users are, recommends a primary and a disaster-recovery region, respects data residency and service availability, and exports ready-to-run CLI and Terraform snippets.
+
 ## Tech stack
 
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
