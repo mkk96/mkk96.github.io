@@ -52,6 +52,9 @@ I build data platforms on Google Cloud that teams can trust.<br>
 - 🏅 Google Cloud Certified **Professional Machine Learning Engineer**
 - Google Cloud Certified Generative AI Leader
 - Google Cloud Certified Associate Data Practitioner
+- Google Cloud Certified Cloud Digital Leader
+- Claude Certified Associate: Foundations (Anthropic)
+- GitHub Copilot Certification
 - Databricks Certified Data Engineer Associate
 - Databricks Certified Data Analyst Associate
 - Microsoft Certified: Azure AI Fundamentals
