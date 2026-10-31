@@ -9,7 +9,7 @@ I build data platforms on Google Cloud that teams can trust.<br>
 
 [![Website](https://img.shields.io/badge/Website-mkk96.github.io-c2410c?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mkk96.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-kumar-60322616b/)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-1c1917?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:mukul.kumar2@protonmail.com)
+[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-1c1917?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukul1996.mc@gmail.com)
 
 <a href="https://mkk96.github.io/">
   <img src="images/preview.png" alt="Preview of mkk96.github.io" width="860">
@@ -93,6 +93,6 @@ python -m http.server 8000
 
 <div align="center">
 
-<sub>Open to data engineering engagements · <a href="mailto:mukul.kumar2@protonmail.com">mukul.kumar2@protonmail.com</a></sub>
+<sub>Open to data engineering engagements · <a href="mailto:mukul1996.mc@gmail.com">mukul1996.mc@gmail.com</a></sub>
 
 </div>
