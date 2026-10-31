@@ -7,9 +7,9 @@
 I build data platforms on Google Cloud that teams can trust.<br>
 7+ years across **banking**, **retail** and **telecom**.
 
-[![Website](https://img.shields.io/badge/Website-mkk96.github.io-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mkk96.github.io/)
+[![Website](https://img.shields.io/badge/Website-mkk96.github.io-c2410c?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mkk96.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-kumar-60322616b/)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-0d9488?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:mukul.kumar2@protonmail.com)
+[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-1c1917?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:mukul.kumar2@protonmail.com)
 
 <a href="https://mkk96.github.io/">
   <img src="images/preview.png" alt="Preview of mkk96.github.io" width="860">
@@ -69,7 +69,7 @@ I build data platforms on Google Cloud that teams can trust.<br>
 
 ## About this site
 
-The source of [mkk96.github.io](https://mkk96.github.io/), a single-page portfolio served by GitHub Pages. It has no framework and no build step: just HTML, CSS and a little JavaScript.
+The source of [mkk96.github.io](https://mkk96.github.io/), my single-page personal intro served by GitHub Pages. It has no framework and no build step: just HTML, CSS and a little JavaScript.
 
 - Responsive from phones to wide screens, with automatic light and dark themes
 - Scroll-reveal animations that respect `prefers-reduced-motion`
@@ -79,7 +79,7 @@ The source of [mkk96.github.io](https://mkk96.github.io/), a single-page portfol
 ```
 mkk96.github.io/
 ├── index.html        # page content and structure
-├── styles/main.css   # design tokens, layout, themes
+├── styles/main.css   # colours, typography, layout, light/dark themes
 ├── scripts/main.js   # mobile menu, scroll reveal, active nav, copy email
 └── images/           # profile photo and README preview
 ```
